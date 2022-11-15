@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up now!</title>
+</head>
+<body class="container">
+    <div class="left">
+        <div class="logo">
+            <img class="logo-img" src="./odin-lined.png">
+            <p class="logo-word">ODIN</p>
+        </div>
+        <img class="left-bg" src="./dog-bg.jpg">
+        <div class="footer">
+            <p class="img-credit">Photo by <a href="https://unsplash.com/@raellego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raelle Gann-Owens</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right header">
+            <p>This is not a real online service! That being said, you know you want to sign up!</p>
+            <p>Fill out the form below to get started!</p>
+        </div>
+        <form action="/fake/server" method="post">
+            <div class="form-header">Let's Go!</div>
+            <fieldset>
+                <legend>SIGNUP INFO</legend>
+                <div class="row name">
+                    <label for="first_name">FIRST NAME:</label>
+                    <input type="text" id="first_name" placeholder="Bob...">
+                    <label for="last_name">LAST NAME:</label>
+                    <input type="text" id="last_name" placeholder="Smith...">
+                </div>
+                
+                <div class="row contact">
+                    <label for="email_address">EMAIL ADDRESS:</label>
+                    <input type="email" id="email_address" placeholder="bob@smith.com">
+                    <label for="phone_number">PHONE NUMBER:</label>
+                    <input type="number" id="phone_number" placeholder="555-123-4567">
+                </div>
+
+                <div class="row password">
+                    <label for="user_pass">PASSWORD:</label>
+                    <input type="password" id="user_pass">
+                    <label for="confirm_pass">CONFIRM PASSWORD:</label>
+                    <input type="password" id="confirm_pass">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
