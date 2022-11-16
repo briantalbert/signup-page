@@ -22,9 +22,19 @@
 }
 
 
+.logo-word {
+  font-size: 72px;
+  padding: 0;
+  margin: 5px;
+  color: rgb(255, 255, 255);
+  font-family: 'Norse-Bold';
+  letter-spacing: 2vw;
+}
 
 .img-credit {
   display: flex;
+  align-items: flex-end;
+  justify-content: center;
   font-family: 'Roboto';
   font-size: x-small;
 }
@@ -107,4 +117,17 @@
     border: none;
     border-radius: 5px;
     background: rgba(245, 245, 220, 0.4);
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    display: flex;
+    margin: 0 2em 0 2em;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
   }
