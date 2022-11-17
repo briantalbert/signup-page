@@ -103,7 +103,10 @@
     background-repeat: no-repeat;
   }
 
-
+  form:focus {
+    border-color: aquamarine;
+    box-shadow: 2px;
+  }
 
   .right .header {
     display: flex;
