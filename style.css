@@ -31,12 +31,27 @@
   letter-spacing: 2vw;
 }
 
-.img-credit {
+.footer {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  align-self: flex-start;
+  margin: 0 0 .2em .2em;
+  width: fit-content;
+  height: fit-content;
+}
+
+.left .img-credit {
+  display: flex;
+  position: absolute;
   font-family: 'Roboto';
   font-size: x-small;
+  margin-top: 76vh;
+  margin-bottom: 0;
+}
+
+.right .img-credit {
+    font-family: 'Roboto';
+    font-size: x-small;
+    justify-self: left;
 }
 
 .logo-img {
@@ -54,9 +69,13 @@
     letter-spacing: 2vw;
 }
 
+
+
 .left {
+  display: flex;
+  flex-direction: column;
   width: max(50px, 40vw);
-  height: auto;
+  height: 100vh;
   background-image: url("./dog-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -86,11 +105,12 @@
 
 
 
-  .right.header {
+  .right .header {
     display: flex;
     justify-content: center;
     background: none;
     box-shadow: .2em;
+    margin: 0;
   }
 
   form {
@@ -99,7 +119,7 @@
     display: flex;
     flex-direction: column;
     font-size: .8rem;
-    margin: 1em;
+    margin: -2em 0 3em 0;
     background: linear-gradient(to right, rgb(236, 173, 78), rgb(134, 164, 197));
   }
 
@@ -130,4 +150,13 @@
     background-color: beige;
     border: none;
     border-radius: 5px;
+  }
+
+  .login {
+    font-size: smaller;
+    background-color: rgba(236, 173, 78, 0.6);
+  }
+
+  .login a {
+    color: black;
   }
